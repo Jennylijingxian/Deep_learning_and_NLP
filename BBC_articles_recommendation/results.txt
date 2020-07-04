@@ -1,0 +1,20 @@
+  
+============================= test session starts ==============================
+platform darwin -- Python 3.7.1, pytest-4.0.2, py-1.7.0, pluggy-0.8.0
+rootdir: /Users/parrt/grading/msds692/F19/recommender-Jennylijingxian, inifile:
+plugins: remotedata-0.3.1, openfiles-0.3.1, doctestplus-0.2.0, arraydiff-0.3
+collected 2 items
+
+test_server.py ..                                                        [100%]
+
+=============================== warnings summary ===============================
+/Users/parrt/anaconda3/lib/python3.7/site-packages/html5lib/_trie/_base.py:3
+  /Users/parrt/anaconda3/lib/python3.7/site-packages/html5lib/_trie/_base.py:3: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated, and in 3.8 it will stop working
+    from collections import Mapping
+
+/Users/parrt/anaconda3/lib/python3.7/site-packages/socks.py:58
+  /Users/parrt/anaconda3/lib/python3.7/site-packages/socks.py:58: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated, and in 3.8 it will stop working
+    from collections import Callable
+
+-- Docs: https://docs.pytest.org/en/latest/warnings.html
+===================== 2 passed, 2 warnings in 3.09 seconds =====================
